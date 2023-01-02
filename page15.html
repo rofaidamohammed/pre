@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>ee</title>
+
+<script language="javascript"> 
+function bgcolor(){
+currenttime= new Date ();
+if(currenttime.getHour()<12)  
+alert("Good morning");
+else if(currenttime.getHour()<18)
+alert("Good afternoon");
+else
+alert("Good evning") ;
+}
+var m=confirm("Do you change the background to yellow");
+if(m==true)
+document.bgcolor="yellow";
+else
+null;
+</script>
+</head>
+<body>
+<body bgcolor="yellow">
+<h1 class="first">Html</h1>
+<div>
+<marquee>
+<p>انها اللغة المستخدمة لانشاء صفحات الانترنت </p>
+<p>وهي ليست لغة برمجة بالمعني والشكل التعارف عليه  للغات البرمجه الاخري كا C</p>
+</div>
+<input type="button"value="button"onclick="bgcolor();">
+yellow<input type="checkbox">
+
+</from>
+</body>
+</html>
